@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Postcard
 //
-//  Created by ahusf on 9/29/14.
+//  Created by ahu on 9/29/14.
 //  Copyright (c) 2014 Grand Thunder. All rights reserved.
 //
 
@@ -28,7 +28,6 @@ class ViewController: UIViewController {
 
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-        // Show message as a label
         messageLabel.text = enterNameTextField.text + ":" + enterMessageTextField.text
         messageLabel.hidden = false
         messageLabel.textColor = UIColor.blueColor()
